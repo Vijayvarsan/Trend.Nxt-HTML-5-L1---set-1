@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" %>
+    <meta charset = "UTF-8" />
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+
+p.s1{
+	text-align:center;
+	font-weight: bold;
+}
+
+</style>
+
+<h1> <p class="s1"> Xena Events </p> </h1>
+		
+		<form action="">
+			Name:   <input type="text" name="name" required/><br>
+			Age:   	<input type="text" name="age" required/><br>
+			E-mail: <input type="email" name="mail" required/><br>
+			
+			<label>Select a city:
+			<input list="cities" name="cities"/></label>
+			<datalist id="cities">
+  			<option value="Rajkot">
+  			<option value="Vizag">
+  			<option value="Bangalore">
+			</datalist><br>
+			<input type="button" value="submit">
+			
+			
+		</form>
+
+</body>
+</html>
