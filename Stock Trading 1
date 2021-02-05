@@ -1,0 +1,68 @@
+<html>
+<body>
+<style>
+
+table,td {
+  border: 1px solid black;
+}
+p.thick {
+  font-weight: bold;
+}
+input:invalid {
+  border: solid red 3px;
+}
+</style>
+	
+	
+	<form action="">
+	
+		<table>
+		<tr>
+		<td> <p class="thick"> TICKER </p> </td>
+		<td> <p class="thick"> PRICE </p> </td>
+		</tr>
+		
+		<tr>
+		<td> WIPRO</td>
+		<td> 298.45 </td>
+		</tr>
+		
+		<tr>
+		<td> INFY </td>
+		<td> 949.95 </td>
+		</tr>
+		
+		<tr>
+		<td> TCS </td>
+		<td> 2713.70 </td>
+		</tr>
+		
+		<tr>
+		<td>TECHM </td>
+		<td> 485.85 </td>
+		</tr>
+		</table>
+		<br> <br>
+
+	<table>
+	<tr> 
+	<td> Ticker : </td>
+	<td> <input type="text" name="ticker"> <td>
+	</tr>
+	<br>
+	
+	<tr> 
+	<td> Quantity: </td>
+	<td>  <input type="number" min="10" max="100" step="10" name="share"> <td>
+	</tr>
+	<br>
+	
+	<tr>
+	<td> <input type="button" value="submit"> <td>
+	</tr>
+	
+	</table>
+</form>    
+     
+</body>
+</html>
